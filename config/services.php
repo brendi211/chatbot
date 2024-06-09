@@ -34,5 +34,9 @@ return [
             'channel' => env('SLACK_BOT_USER_DEFAULT_CHANNEL'),
         ],
     ],
-
+    'botman' => [
+        'user_cache_time' => 30,
+        'conversation_cache_time' => 40,
+        'curl_options' => [],
+    ],
 ];
